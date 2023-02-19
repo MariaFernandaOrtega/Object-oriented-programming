@@ -2,19 +2,23 @@
 """
 Created on Sun Feb 12 18:02:49 2023
 
-@author: Hannah
+@author: Maria Fernanda Ortega
 """
 
 from abc import ABCMeta, abstractmethod
-import numpy as np
+import random
 
 class Creature(metaclass=ABCMeta):
-    
+    def method(self):
+        return 'This object is a  ' + self
   
         
 class Bear(Creature):
+    def method(self):
+        return 'This object is a  ' + self
 
- 
         
 class Fish(Creature):
-    
+    def method(self):
+        return 'This object is a  ' + self
+
